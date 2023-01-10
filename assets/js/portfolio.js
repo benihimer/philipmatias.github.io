@@ -378,7 +378,7 @@
      month = "0" + month;
    }
 
-   var timeString = month+"/"+day+"/"+year+" "+ hours + ":" + minutes + ":"+ ampm;
+   var timeString = month+"/"+day+"/"+ year+" "+ hours + ":" + minutes + ":"+ ampm;
    document.querySelector(".time").innerHTML = timeString;
  }
 
